@@ -1,24 +1,24 @@
-Grupo guerrillero con el cual Santos firmó acuerdo de paz
+﻿Grupo guerrillero con el cual Santos firmo acuerdo de paz
 FARC
-Protocolo de comunicación con páginas Web
+Protocolo de comunicacion con paginas Web
 HTTP
 Protocolo para Transferencia de Archivos
 FTP
-Organización de Estados Americanos
+Organizacion de Estados Americanos
 OEA
 Entidad encargada de los Impuestos Nacionales
 DIAN
 Siglas de la antigua Rusia
 URSS
-Metodología ágil más popular
+Metodologia agil mas popular
 Scrum
-Hoja de estilos para páginas Web
+Hoja de estilos para paginas Web
 CSS
-Equipo que compró a Neymar en 2017
+Equipo que compro a Neymar en 2017
 PSG
 Plan de Ordenamiento Territorial
 POT
-Entidad máxima del fútbol mundial
+Entidad maxima del futbol mundial
 FIFA
 Sistema Operativo predecesor de Windows
 DOS

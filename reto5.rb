@@ -1,3 +1,5 @@
+# coding UTF-8
+
 class Hash
 	  def shuffle
 		      Hash[self.to_a.sample(self.length)]
@@ -42,18 +44,25 @@ class Preguntas
 end
 
 Banco = Preguntas.new
+puts "Bienvenido a reto 5, Para jugar, solo ingresa el termino correcto para cada una de las definiciones, Listo? Vamos!"
+puts
 contador = 1
 while contador <= 5
 	preg_resp = Banco.lee_pregunta(contador)
-	puts "Pregunta: " + preg_resp[0]
+	puts "Definición: " + preg_resp[0]
 	resp_user = nil
-	while resp_user != preg_resp[1].strip
-		puts "Respuesta: "
+	preg_resp[1].upcase!
+	preg_resp[1].strip!
+	while resp_user != preg_resp[1]
+		print "Adivinar: "
 		resp_user = gets.chomp.to_s
-		if resp_user != preg_resp[1].strip
-			puts "Intenta de nuevo"
+		resp_user.upcase!
+		if resp_user != preg_resp[1]
+			puts "Incorrecto!, Trata de nuevo"
 		end
 	end
-	puts "MUY BIEN!!!"
+	puts "Correcto!"
+	puts
 	contador += 1
 end
+puts "Fin del juego"
